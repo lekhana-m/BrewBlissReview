@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*background-image: url('https://things2.do/blogs/wp-content/uploads/2022/08/image1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+}
+.bg-image {
+    /* The image used */
+    background-image: url("images/sign.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.container {
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.form {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+.already-user {
+    display: block;
+    margin-top: 15px;
+    color: #cccccc;
+    font-size: 14px;
+}
+a{
+    
+    color: white;
+}

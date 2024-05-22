@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(174, 172, 172, 0.5);
+}
+
+.logo {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.top-buttons button {
+    background-color: #0d0d0c;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.top-buttons button:hover {
+   
+    background-color: white;
+    color: #0d0d0c;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p {
+   /* background-color: rgba(150, 148, 148, 0.7);*/
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 160%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.review-button {
+    background-color: #0d0d0c;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.review-button:hover {
+    background-color: white;
+    color: #0d0d0c;
+    box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15);
+}

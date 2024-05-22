@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/review-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 30px;
+    cursor: pointer;
+    color: #d3d3d3;
+}
+
+.star.selected,
+.star:hover,
+.star:hover ~ .star {
+    color: #105fd6;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+button {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e68900;
+}

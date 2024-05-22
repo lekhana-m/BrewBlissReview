@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+background-position: center;
+display: flex;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.shop {
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.shop img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.shop h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.shop p {
+    font-size: 1.5em;
+    color: white;
+}
+.shop button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.shop button:hover {
+    background-color: white;
+    color: #0d0d0c;
+}
+
+.review-button {
+    background-color: #0d0d0c;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 700;
+
+}
+
+.review-button:hover {
+    background-color: white;
+    color: #0d0d0c;
+    box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15);
+}
